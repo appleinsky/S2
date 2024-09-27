@@ -1,0 +1,17 @@
+/home/ma-user/Ascend/ascend-toolkit/8.0.RC2.alpha003/python/site-packages/bin/msopgen gen -i ./BallQuery/BallQuery.json -c ai_core-Ascend910B4 -lan cpp -out ./BallQuery
+./build_out/custom_opp_euleros_aarch64.run
+bash /home/ma-user/work/suanzi/case/BallQueryCase/BallQueryCase1/run.sh
+
+
+/home/ma-user/Ascend/ascend-toolkit/8.0.RC2.alpha003/python/site-packages/bin/msopgen gen -i ./DepthToSpace/DepthToSpace.json -c ai_core-Ascend910B4 -lan cpp -out ./DepthToSpace
+bash /home/ma-user/work/suanzi/case/DepthToSpaceCase/DepthToSpaceCase1/run.sh
+
+
+bash init_env.sh
+source ~/.bashrc
+
+wget https://download.pytorch.org/whl/torch-1.11.0-cp39-cp39-manylinux2014_aarch64.whl
+pip3 install torch-1.11.0-cp39-cp39-manylinux2014_aarch64.whl
+
+
+./build_out/custom_opp_euleros_aarch64.run

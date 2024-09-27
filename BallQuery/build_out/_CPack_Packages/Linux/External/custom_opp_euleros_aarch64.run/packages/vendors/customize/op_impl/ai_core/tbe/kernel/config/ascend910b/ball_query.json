@@ -1,0 +1,168 @@
+{
+  "binList": [
+    {
+      "simplifiedKey": [
+        "BallQuery/d=0,p=0/1,2/1,2/3,2",
+        "BallQuery/d=1,p=0/1,2/1,2/3,2"
+      ],
+      "staticKey": "f9ae287615381de258a442eccc8f8a35eaba0538cebe6c2c7b5718d53f513c1c",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "xyz",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "center_xyz",
+          "index": 1,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "xyz_batch_cnt",
+          "index": 2,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "optional",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "center_xyz_batch_cnt",
+          "index": 3,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "optional",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "idx",
+          "index": 0,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "attrs": [
+        {
+          "name": "min_radius",
+          "dtype": "float",
+          "value": 0.0
+        },
+        {
+          "name": "max_radius",
+          "dtype": "float",
+          "value": 0.0
+        },
+        {
+          "name": "sample_num",
+          "dtype": "int",
+          "value": 0
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend910b/ball_query/BallQuery_15860cad4f0b02b13abda0a22403ac0e.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "BallQuery/d=0,p=0/0,2/0,2/3,2",
+        "BallQuery/d=1,p=0/0,2/0,2/3,2"
+      ],
+      "staticKey": "d7b858f7d34762a7ee78ab9f4eb3311977436f386ddbab0b9755b664c60be1eb",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "xyz",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "center_xyz",
+          "index": 1,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "xyz_batch_cnt",
+          "index": 2,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "optional",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "center_xyz_batch_cnt",
+          "index": 3,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "optional",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "idx",
+          "index": 0,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "attrs": [
+        {
+          "name": "min_radius",
+          "dtype": "float",
+          "value": 0.0
+        },
+        {
+          "name": "max_radius",
+          "dtype": "float",
+          "value": 0.0
+        },
+        {
+          "name": "sample_num",
+          "dtype": "int",
+          "value": 0
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend910b/ball_query/BallQuery_8ef4e9c4ead330762be4d0b61630f102.json"
+      }
+    }
+  ]
+}
